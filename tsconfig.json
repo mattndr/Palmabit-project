@@ -13,7 +13,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {},
+    "paths": {
+      "data-loader": ["libs/data-loader/src/index.ts"],
+      "email-sender": ["libs/email-sender/src/index.ts"]
+    },
     "esModuleInterop": true
   },
   "files": [],
